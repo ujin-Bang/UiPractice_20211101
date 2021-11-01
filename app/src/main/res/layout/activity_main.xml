@@ -78,6 +78,11 @@
         android:text="이용약관에 동의합니다" />
 
 
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"/>
 
     <Button
         android:layout_width="match_parent"
