@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
+
       tools:context=".MainActivity">
 
     <TextView
@@ -66,6 +67,7 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="공개안함"/>
     </RadioGroup>
     <CheckBox
@@ -89,7 +91,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:scaleType="centerCrop"
-        android:src="@mipmap/ic_launcher"/>
+        android:src="@drawable/logo"/>
 
 
     </LinearLayout>
